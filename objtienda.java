@@ -1,30 +1,21 @@
 public class objtienda {
-
-    private String Nombre;
-    private int Precio;
+    private String Producto;
     private int Cantidad;
 
     
     public objtienda() {
     }
     
-    public objtienda(String nombre, int precio, int cantidad) {
-        Nombre = nombre;
-        Precio = precio;
+    public objtienda(String producto, int cantidad) {
+        Producto = producto;
         Cantidad = cantidad;
     }
 
-    public String getNombre() {
-        return Nombre;
+    public String getProducto() {
+        return Producto;
     }
-    public void setNombre(String nombre) {
-        Nombre = nombre;
-    }
-    public int getPrecio() {
-        return Precio;
-    }
-    public void setPrecio(int precio) {
-        Precio = precio;
+    public void setProducto(String producto) {
+        Producto = producto;
     }
     public int getCantidad() {
         return Cantidad;
@@ -32,7 +23,6 @@ public class objtienda {
     public void setCantidad(int cantidad) {
         Cantidad = cantidad;
     }
-
 
     
 }
